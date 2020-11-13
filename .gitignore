@@ -1,0 +1,26 @@
+#SQE Related Data
+tables/*.sql
+geom_tabls/*.sql
+
+# Damascus Database
+db/damascus.db
+
+# Venv
+env/
+
+#application or OS
+.vscode
+.DS_Store
+
+#Images related data
+*.psb
+*.psd
+*.tif
+*.jpg
+
+# Downloaded IAA Images
+img/plates/P*
+
+# Documents
+*4Q51-Example.zip
+*chromedriver_mac64.zip
