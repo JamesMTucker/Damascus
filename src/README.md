@@ -11,7 +11,7 @@ The above creates a Python environment. To activate the environment, run the fol
 To install the necessary dependencies, run the following:
 * `python3 install -r requirements.txt`
 
-## Launch the Virtual Reseasrch Environment
+## Launch the Virtual Research Environment
 
 To launch the Virtual Research Environment, run the following command:
 * `jupyter lab`
