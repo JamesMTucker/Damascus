@@ -1,7 +1,3 @@
-#SQE Related Data
-tables/*.sql
-geom_tabls/*.sql
-
 # Damascus Database
 db/damascus.db
 
@@ -18,8 +14,8 @@ env/
 *.tif
 *.jpg
 
-# Downloaded IAA Images
-img/plates/P*
+# Keys
+*.ini
 
 # Documents
 *4Q51-Example.zip
