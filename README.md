@@ -1,5 +1,7 @@
 # Critical Editions of the Damascus Codices and Scrolls
 
+[![sha](sha.png) Software Heritage Archive](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/JamesMTucker/Damascus)
+
 This repository contains data and information related to the work of the Damascus Edition. The work of this edition is funded by [DIP Projekt 282601852](http://gepris.dfg.de/gepris/projekt/282601852)
 
 ## Principal Editors of the Damascus Edition
