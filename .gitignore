@@ -1,5 +1,6 @@
 # Damascus Database
 db/damascus.db
+db/damascus.py
 
 # Venv
 env/
