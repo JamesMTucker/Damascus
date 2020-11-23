@@ -30,6 +30,7 @@ A comprehensive bibliography for research on and related to the Damascus Documen
 | Baumgarten 1992 | Baumgarten, Joseph M. “The Cave 4 Versions of the Qumran Penal Code.” _JJS_ 43.2 (1992): 268–276. |
 | Hempel 1997 | Hempel, Charlotte. “The Penal Code Reconsidered.” Pages 337–348 in _Legal Texts and Legal Issues: Proceedings of the Second Meeting of the International Organization for Qumran Studies_. Published in Honour of Joseph M. Baumgarten. Leiden: Brill, 1997. |
 | Shemesh 2007 | Shemesh, Aharon. “The Penal Code from Qumran and Early Midrash.” _Meghillot_ 5–6 (2007): 245–68. [Hebrew] |
+| Jokiranta 2007 | Jokiranta, Jutta. “Social Identity in the Qumran Movement: The Case of the Penal Code.” Pages 277-98 in _Explaining Christian Origins and Early Judaism: Contributions from Cognitive and Social Science_. Edited by Petri Luomanen, Ilkka Pyysiäinen, and Risto Uro. Biblical Interpretation Series 89. Leiden: Brill, 2007. |
 | Shemesh  2008 | Shemesh, Aharon. “The Scriptural Background of the Penal Code in the Rule of the Community and Damascus Document.” _DSD_ 15.2 (2008): 191–224. |
 | Davies 2017 | Davies, Philip R. “The Textual Growth of the Damascus Document Revisited.” [Pages 319–33](http://booksandjournals.brillonline.com/content/books/b9789004344532_019) in _Is There a Text in This Cave? Studies in the Textuality of the Dead Sea Scrolls in Honour of George J. Brooke_. Edited by Ariel Feldman, Maria Cioată, and Charlotte Hempel. STDJ 119. Leiden: Brill, 2017. |
 
