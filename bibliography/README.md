@@ -9,6 +9,14 @@ A comprehensive bibliography for research on and related to the Damascus Documen
 | Zeitlin 1952 | 🅧 | 🅧 | ✔︎ | Zeitlin, Solomon. _The Zadokite Fragments: Facsimile of the Manuscripts in the Cairo Genizah Collection_. The Jewish Quarterly Review Monograph Series 1. Philadelphia: The Dropsie College for Hebrew and Cognate Learning, 1952. |
 | Rabin 1958 | ✔︎ | ✔︎ | 🅧 | Rabin, Chaim. _The Zadokite Documents_. 2nd ed. Oxford: Clarendon Press, 1958. |
 | Qimron 1992 | ✔︎ | 🅧 | ✔︎ | Qimron, Elisha. _The Damascus Document Reconsidered_. Edited by Magen Broshi. Jerusalem: The Israel Exploration Society, 1992. |
+| DJD 4Q266 (D<sup>a</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q266. 4QDamascus Document<sup>a</sup> (Pls. I–XVII).” Pages 23–94 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
+| DJD 4Q267 (D<sup>b</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q267. 4QDamascus Document<sup>b</sup> (Pls. XVIII–XXI).” Pages 95–114 in Qumran Cave 4 XIII The Damascus Document (4Q266–273). DJD 18. Oxford: Clarendon Press, 1996. |
+| DJD 4Q268 (D<sup>c</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q268. 4QDamascus Document<sup>c</sup> (Pl. XXII).” Pages 115–122 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
+| DJD 4Q269 (D<sup>d</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q269. 4QDamascus Document<sup>d</sup> (Pls. XXIII–XXV).” Pages 123–136 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
+| DJD 4Q270 (D<sup>e</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q270. 4QDamascus Document<sup>e</sup> (Pls. XXVI–XXXVI).” Pages 137–168 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
+| DJD 4Q271 (D<sup>f</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q271. 4QDamascus Document<sup>f</sup> (Pls. XXXVII–XXXIX).” Pages 169–184 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
+| DJD 4Q272 (D<sup>g</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q272. 4QDamascus Document<sup>g</sup> (Pls. XL).” Pages 185–192 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
+| DJD 4Q273 (D<sup>h</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q273. 4QpapDamascus Document<sup>h</sup> (Pls. XLI–XLII).” Pages 193–198 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD Desert 18. Oxford: Clarendon Press, 1996. |
 
 ## Articles
 
@@ -22,11 +30,3 @@ A comprehensive bibliography for research on and related to the Damascus Documen
 ## Monographs
 | Abbreviation | Bibliography |
 | :---: | :--- |
-| DJD 4Q266 (D<sup>a</sup>) | Baumgarten, Joseph M. “4Q266. 4QDamascus Document<sup>a</sup> (Pls. I–XVII).” Pages 23–94 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
-| DJD 4Q267 (D<sup>b</sup>) | Baumgarten, Joseph M. “4Q267. 4QDamascus Document<sup>b</sup> (Pls. XVIII–XXI).” Pages 95–114 in Qumran Cave 4 XIII The Damascus Document (4Q266–273). DJD 18. Oxford: Clarendon Press, 1996. |
-| DJD 4Q268 (D<sup>c</sup>) | Baumgarten, Joseph M. “4Q268. 4QDamascus Document<sup>c</sup> (Pl. XXII).” Pages 115–122 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
-| DJD 4Q269 (D<sup>d</sup>) | Baumgarten, Joseph M. “4Q269. 4QDamascus Document<sup>d</sup> (Pls. XXIII–XXV).” Pages 123–136 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
-| DJD 4Q270 (D<sup>e</sup>) | Baumgarten, Joseph M. “4Q270. 4QDamascus Document<sup>e</sup> (Pls. XXVI–XXXVI).” Pages 137–168 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
-| DJD 4Q271 (D<sup>f</sup>) | Baumgarten, Joseph M. “4Q271. 4QDamascus Document<sup>f</sup> (Pls. XXXVII–XXXIX).” Pages 169–184 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
-| DJD 4Q272 (D<sup>g</sup>) | Baumgarten, Joseph M. “4Q272. 4QDamascus Document<sup>g</sup> (Pls. XL).” Pages 185–192 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
-| DJD 4Q273 (D<sup>h</sup>) | Baumgarten, Joseph M. “4Q273. 4QpapDamascus Document<sup>h</sup> (Pls. XLI–XLII).” Pages 193–198 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD Desert 18. Oxford: Clarendon Press, 1996. |
