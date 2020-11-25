@@ -18,6 +18,10 @@ A comprehensive bibliography for research on and related to the Damascus Documen
 | DJD 4Q272 (D<sup>g</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q272. 4QDamascus Document<sup>g</sup> (Pls. XL).” Pages 185–192 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD 18. Oxford: Clarendon Press, 1996. |
 | DJD 4Q273 (D<sup>h</sup>) | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph M. “4Q273. 4QpapDamascus Document<sup>h</sup> (Pls. XLI–XLII).” Pages 193–198 in _Qumran Cave 4 XIII The Damascus Document (4Q266–273)_. DJD Desert 18. Oxford: Clarendon Press, 1996. |
 | DJD 4Q265 | ✔︎ | ✔︎ | ✔︎ | Baumgarten, Joseph. “4Q265 Miscellaneous Rules.” Pages 57–78 in _Qumran Cave 4. XXV Halakhic Texts_. Edited by Emanuel Tov. DJD 25. Oxford: Clarendon Press, 1999. |
+| Amusin 1971 | 🅧 | ✔︎ | 🅧 | Amusin, I. D. _Texty Kumrana_. Izdatel'stvo Nauka: Moscow, 1971 |
+| Berettas 1978 | 🅧 | ✔︎ | 🅧 | Berettas, M. _Ta cheirographa tes Nakres Thalasson_. Athens. 1978 |
+| Bonhomme 1976 | 🅧 | ✔︎ | 🅧 | Bonhomme, M. J. F. _Los documentos de Qumrán_. Christiandad, Madrid, 1976. |
+| Boyce 1988 | 🅧 | ✔︎ | 🅧 | Boyce, J. M. _The Poetry of the Damascus Document_. PhD Thesis. University of Edinburgh, 1988. |
 
 ## Articles or Book Chapters
 
