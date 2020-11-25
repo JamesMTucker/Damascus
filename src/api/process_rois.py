@@ -223,12 +223,16 @@ def make_transcriber(args):
                     "ש",
                     "ת",
                     "◦",
-                    "l", # lacuna
-                    "s", # scribal mark
-                    "m", # corresponds to material commentary
-                    "v", # vowel
-                    "c", # cantillation
-                    "_" # update 2.2 (space can be either ""  or "_")
+                    "l",    # lacuna
+                    "s",    # scribal mark
+                    "m",    # corresponds to material commentary
+                    "v",    # vowel – Scribe used a sign to define a consonant with an associated vowel sound, yet the vowel is unclear. # e.g., See CD A 1:10 שלם (cf. Rabin 1956 and Qimron 1994)
+                    "v_a",  # vowel – /a/ class
+                    "v_u",  # vowel – /u/ class
+                    "v_i",  # vowel – /i/ class
+                    "d",    # diacritic – pertaining to morphological/phonological quality of a glyph (composed of more than simply a character, but rather it is a character + something to modify reading or writing practices)
+                    "x",    # (paragraphos markers; alpha-numerical markers [i.e., 4Q266 col. 1 aleph or 4Q256 frag. 4 gimel]; pauses (aka. setumah or petucha in Tiberian tradition)) syntactical or literary markings that are signs yet are not alphabetical in nature, whose function extends beyond matters of morphology or phonology to structure or arrange the text on the page (quasi mise-en-page features)
+                    "_"     # update 2.2 (space can be either ""  or "_")
                 ]
 
                 chars.data_validation(
