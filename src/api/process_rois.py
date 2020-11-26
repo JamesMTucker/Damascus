@@ -58,28 +58,29 @@ def make_transcriber(args):
             {'A1': 'id'},                   #0 int
             {'B1': 'uni_id'},               #1 int
             {'C1': 'roi_id'},               #2 int
-            {'D1': 'editors_sigla_id'},     #3 int
-            {'E1': 'word_id'},              #4 int
-            {'F1': 'he_mach'},              #5 int
-            {'G1': 'reading_order'},        #6 int
-            {'H1': 'reading_order_alt'},    #7 int
-            {'I1': 'attr'},                 #8 #attr ENUM – Palaeographical Attributes
-            {'J1': 'related_to'},           #9 text – this column requires further processing
+            {'D1': 'related_to'},           #3 post-processing (use dash for more than one)
+            {'E1': 'editors_sigla_id'},     #4 int
+            {'F1': 'word_id'},              #5 int
+            {'G1': 'line_id'},              #6 int
+            {'H1': 'he_mach'},              #7 int
+            {'I1': 'palaeo_attr'},          #8 #Palaeographical Attributes
+            {'J1': 'material_attr'},        #9 #Material Attribute
             {'K1': 'is_joined'},            #10 boolean
             {'L1': 'kerning'},              #11 boolean
             {'M1': 'damaged'},              #12 boolean
             {'N1': "damaged_vis"},          #13 ENUM
-            {'O1': "damaged_legacy"},       #14 ENUM           
-            {'P1': 'he_human_0'},           #15 varchar
-            {'Q1': 'he_human_1'},           #16 varchar
-            {'R1': 'he_human_2'},           #17 varchar
-            {'S1': 'he_human_3'},           #18 varchar
-            {'T1': 'line_id'},              #19 int
-            {'U1': 'line_status_int'},      #20 ENUM
-            {'V1': 'line_status_mid'},      #21 ENUM
-            {'W1': 'line_status_end'},      #22 ENUM
-            {'X1': 'Material_Comm'},        #23 Text
-            {'Y1': 'Palaeo_Comm'}           #23 Text
+            {'O1': "damaged_legacy"},       #14 ENUM
+            {'P1': 'reading_order'},        #15 int
+            {'Q1': 'he_human_0'},           #16 varchar
+            {'R1': 'he_human_1'},           #17 varchar
+            {'S1': 'he_human_2'},           #18 varchar
+            {'T1': 'he_human_3'},           #19 varchar
+            {'U1': 'reading_order_alt'},    #20 int
+            {'V1': 'line_status_int'},      #21 ENUM
+            {'W1': 'line_status_mid'},      #22 ENUM
+            {'X1': 'line_status_end'},      #23 ENUM
+            {'Y1': 'Material_Comm'},        #24 Text
+            {'Z1': 'Palaeo_Comm'}           #25 Text
         ]
 
         signs = workbook.add_worksheet(ws2_name_rois)
@@ -150,8 +151,6 @@ def make_transcriber(args):
             for row in reader:
                 signs.write_number(row_count, 0, int(row[' ']))
                 chars.write_formula(row_count, 2, str("=SIGNs!" + "A" + str(roi_id)))
-                # chars.write_formula(row_count, 14, str("=SIGNs!" + "P" + str(roi_id)))
-                chars.write_formula(row_count, 2, str('=SIGNs!' + 'A' + str(roi_id)))
                 roi_id += 1
 
                 signs.write_string(row_count, 3, str(row['Label']))
@@ -191,6 +190,13 @@ def make_transcriber(args):
                     "erased",
                     "cursive",
                 ]
+                material_attr = [
+                    "lacuna",
+                    "water_damage",
+                    "crease",
+                    "damaged_surface",
+                ]
+
                 line_stats = ["DAMAGED", "DAMAGED_STILL_READ", "NOT_DAMAGED"]
 
                 # for greek, latin, or syriac add an optional kwarg for the language, otherwise default to hebrew
@@ -239,6 +245,9 @@ def make_transcriber(args):
                     "I" + str(row_count), {"validate": "list", "source": palaeo_attr}
                 )
                 chars.data_validation(
+                    "J" + str(row_count), {"validate": "list", "source": material_attr}
+                )
+                chars.data_validation(
                     "K" + str(row_count), {"validate": "list", "source": boolean_list}
                 )
                 chars.data_validation(
@@ -254,16 +263,13 @@ def make_transcriber(args):
                     "O" + str(row_count), {"validate": "list", "source": damaged_legacy}
                 )
                 chars.data_validation(
-                    "U" + str(row_count), {"validate": "list", "source": line_stats}
-                )
-                chars.data_validation(
                     "V" + str(row_count), {"validate": "list", "source": line_stats}
                 )
                 chars.data_validation(
                     "W" + str(row_count), {"validate": "list", "source": line_stats}
                 )
                 chars.data_validation(
-                    "P" + str(row_count), {"validate": "list", "source": chars_opts}
+                    "X" + str(row_count), {"validate": "list", "source": line_stats}
                 )
                 chars.data_validation(
                     "Q" + str(row_count), {"validate": "list", "source": chars_opts}
@@ -273,6 +279,9 @@ def make_transcriber(args):
                 )
                 chars.data_validation(
                     "S" + str(row_count), {"validate": "list", "source": chars_opts}
+                )
+                chars.data_validation(
+                    "T" + str(row_count), {"validate": "list", "source": chars_opts}
                 )
                 row_count += 1
 
