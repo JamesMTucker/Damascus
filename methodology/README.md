@@ -19,4 +19,4 @@ The following palaeographical model facilitates a careful analysis of ancient fr
 
 ### Annotation of Signs
 
-To accumulate a database of signs, it is necessary to first begin by annotating an image with regions of interest. Let's first analyse what is meant by signs. A sign is any semantic bearing mark made on an image of a fragment ([Tucker and Porzig, 2018](../bibliography/README.md)).
+To accumulate a database of signs, it is necessary to first begin by annotating an image with regions of interest. Let's first analyse what is meant by signs. A sign is any semantic bearing mark made on an image of a fragment ([Tucker and Porzig, 2018](https://github.com/JamesMTucker/Damascus/blob/main/bibliography/README.md#articles-or-book-chapters)).
