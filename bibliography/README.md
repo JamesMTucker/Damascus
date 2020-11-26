@@ -37,6 +37,7 @@ A comprehensive bibliography for research on and related to the Damascus Documen
 | Jokiranta 2007 | Jokiranta, Jutta. “Social Identity in the Qumran Movement: The Case of the Penal Code.” Pages 277-98 in _Explaining Christian Origins and Early Judaism: Contributions from Cognitive and Social Science_. Edited by Petri Luomanen, Ilkka Pyysiäinen, and Risto Uro. Biblical Interpretation Series 89. Leiden: Brill, 2007. |
 | Shemesh  2008 | Shemesh, Aharon. “The Scriptural Background of the Penal Code in the Rule of the Community and Damascus Document.” _DSD_ 15.2 (2008): 191–224. |
 | Davies 2017 | Davies, Philip R. “The Textual Growth of the Damascus Document Revisited.” [Pages 319–33](http://booksandjournals.brillonline.com/content/books/b9789004344532_019) in _Is There a Text in This Cave? Studies in the Textuality of the Dead Sea Scrolls in Honour of George J. Brooke_. Edited by Ariel Feldman, Maria Cioată, and Charlotte Hempel. STDJ 119. Leiden: Brill, 2017. |
+| Tucker and Porzig, 2018 | Tucker, James M., and Peter Porzig. “Between Artefacts, Fragments, and Texts: An Analysis of 4Q266 Column I.” _DSD_ 25.3 (2018): 335–358. |
 
 
 
