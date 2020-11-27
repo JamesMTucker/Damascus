@@ -18,7 +18,11 @@ def make_transcriber(args):
     """
     Create a transcriber xlsx notebook. Each notebook corresponds to a fragment, and contains a transcription 
     along with various other interpreted values. See the README.md for additional details.
+    :frag_id: random id assigned to a fragment
+    :roi_file: source file of rois produced by FIJI
+    :scoll_id: random id assigned to a reconstructed artefact
     """
+
     frag_id = args.frag_id
     roi_file = args.roi_file
     scroll_id = args.scroll_id
@@ -29,7 +33,6 @@ def make_transcriber(args):
     ws2_name_rois = 'SIGNs'
     ws3_name_frags = 'Frags'
 
-    
     with xlsxwriter.Workbook(wb_name) as workbook:
         workbook.set_properties({
             'title': 'This worksheet contains sign(s) and their interepretation for {}'.format(wb_name),
@@ -170,6 +173,7 @@ def make_transcriber(args):
                 signs.write_number(row_count, 17, float(row['Round']))
                 signs.write_number(row_count, 18, float(row['Solidity']))
 
+                # Define Presets
                 boolean_list = ["True", "False"]
                 damaged_sm = ["True", "False",  "relevant_w", "relevant_h"]
                 damaged_legacy = [
@@ -289,6 +293,7 @@ def make_transcriber(args):
 
 def main(argv):
     """
+    Process rois to create a palaeographical notebook
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("scroll_id", help="There must be a scroll id", type=str)
