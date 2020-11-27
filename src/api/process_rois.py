@@ -198,6 +198,9 @@ def make_transcriber(args):
                     "lacuna",
                     "water_damage",
                     "crease",
+                    "stitching hole",
+                    "sewing",
+                    "seam",
                     "damaged_surface",
                     "modern_mark", # i.e., library stamp or folio number
                     "artefact", # i.e., a believed extraneous imaged object (e.g., dust, rice paper, shadow)
