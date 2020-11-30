@@ -42,6 +42,10 @@ A comprehensive bibliography for research on and related to the Damascus Documen
 
 
 
-## Monographs
+## Monographs and Theses
+
 | Abbreviation | Bibliography |
 | :---: | :--- |
+| Wacholder 2007 | Wacholder, Ben Zion. _The New Damascus Document. The Midrash on the Eschatological Torah of the Dead Sea Scrolls: Reconstruction, Translation and Commentary_. Edited by Florentino García Martínez. STDJ 56. Leiden: Brill, 2007. |
+| Goldman 2007 | Goldman, Liora. “Biblical Exegesis and Pesher Interpretation in the Damascus Document.” University of Haifa, 2007. |
+| Goldman 2019 | Goldman, Liora. _“Those Who Hold Fast to the Ordinances” - The Qumran Community and Its Exegesis in Light of the Pesharim in the Damascus Document_. Jerusalem: Musad Bialik, 2019. [Hebrew] |
