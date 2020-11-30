@@ -1,7 +1,3 @@
-# Damascus Database
-db/damascus.db
-db/damascus.py
-
 # Venv
 env/
 
@@ -9,7 +5,7 @@ env/
 .vscode
 .DS_Store
 
-#Images related data
+#Image related data
 *.psb
 *.psd
 *.tif
@@ -21,8 +17,10 @@ env/
 # Documents
 *4Q51-Example.zip
 *chromedriver_mac64.zip
-*.pdf
 
 # Documents to Make Public After Project's Conclusion
 bibliography/james/
 methodology/editions/transcription/
+
+# Personal Items
+/bibliography/pdf_lib/
