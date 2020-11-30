@@ -10,9 +10,7 @@ import argparse
 # version 1.0
 # James M. Tucker, PhD
 # University of Toronto
-# (c) 2020 by James M. Tucker
-# Depedencies: xlsxwriter install with `pip3 install xlsxwriter`
-# documentation: https://xlsxwriter.readthedocs.io/contents.html
+# Copyright 2020 by James M. Tucker
 
 def make_transcriber(args):
     """
@@ -41,7 +39,7 @@ def make_transcriber(args):
             'manager': 'James M. Tucker',
             'category': 'ROI, Digital Editions, Philology',
             'keywords': 'Digital Edition, Transcription, Damascus, Serekh',
-            'comments': 'Created with Python and XLSX Writer by (c) 2020 James M. Tucker'
+            'comments': 'Created with Python and XLSX Writer by Copyright 2020 James M. Tucker'
         })
 
         # define properties
@@ -58,32 +56,32 @@ def make_transcriber(args):
         chars.freeze_panes(1, 0)
 
         header_labels_chars = [
-            {'A1': 'id'},                   #0 int
-            {'B1': 'uni_id'},               #1 int
-            {'C1': 'roi_id'},               #2 int
-            {'D1': 'related_to'},           #3 post-processing (use dash for more than one)
-            {'E1': 'editors_sigla_id'},     #4 int
-            {'F1': 'word_id'},              #5 int
-            {'G1': 'line_id'},              #6 int
-            {'H1': 'he_mach'},              #7 int
-            {'I1': 'palaeo_attr'},          #8 #Palaeographical Attributes
-            {'J1': 'material_attr'},        #9 #Material Attribute
-            {'K1': 'is_joined'},            #10 boolean
-            {'L1': 'kerning'},              #11 boolean
-            {'M1': 'damaged'},              #12 boolean
-            {'N1': "damaged_vis"},          #13 ENUM
-            {'O1': "damaged_legacy"},       #14 ENUM
-            {'P1': 'reading_order'},        #15 int
-            {'Q1': 'he_human_0'},           #16 varchar
-            {'R1': 'he_human_1'},           #17 varchar
-            {'S1': 'he_human_2'},           #18 varchar
-            {'T1': 'he_human_3'},           #19 varchar
-            {'U1': 'reading_order_alt'},    #20 int
-            {'V1': 'line_status_int'},      #21 ENUM
-            {'W1': 'line_status_mid'},      #22 ENUM
-            {'X1': 'line_status_end'},      #23 ENUM
-            {'Y1': 'Material_Comm'},        #24 Text
-            {'Z1': 'Palaeo_Comm'}           #25 Text
+            {'A1': 'id'},
+            {'B1': 'uni_id'},
+            {'C1': 'roi_id'},
+            {'D1': 'related_to'},
+            {'E1': 'editors_sigla_id'},
+            {'F1': 'word_id'},
+            {'G1': 'line_id'},
+            {'H1': 'he_mach'},
+            {'I1': 'palaeo_attr'},
+            {'J1': 'material_attr'},
+            {'K1': 'is_joined'},
+            {'L1': 'kerning'},
+            {'M1': 'damaged'},
+            {'N1': "damaged_vis"},
+            {'O1': "damaged_legacy"},
+            {'P1': 'reading_order'},
+            {'Q1': 'he_human_0'},
+            {'R1': 'he_human_1'},
+            {'S1': 'he_human_2'},
+            {'T1': 'he_human_3'},
+            {'U1': 'reading_order_alt'},
+            {'V1': 'line_status_int'},
+            {'W1': 'line_status_mid'},
+            {'X1': 'line_status_end'},
+            {'Y1': 'Material_Comm'},
+            {'Z1': 'Palaeo_Comm'}
         ]
 
         signs = workbook.add_worksheet(ws2_name_rois)
@@ -112,25 +110,25 @@ def make_transcriber(args):
         ]
 
         header_labels_signs = [
-            {'A1': 'roi_id'},               #0
-            {'B1': 'iaa_related_to'},       #1
-            {'C1': 'pam_related_to'},       #2
-            {'D1': 'Label'},                #3
-            {'E1': 'Area'},                 #4
-            {'F1': 'Mean'},                 #5
-            {'G1': 'Min'},                  #6
-            {'H1': 'Max'},                  #7
-            {'I1': 'BX'},                   #8
-            {'J1': 'BY'},                   #9
-            {'K1': 'Width'},                #10
-            {'L1': 'Height'},               #11
-            {'M1': 'Major'},                #12
-            {'N1': 'Minor'},                #13
-            {'O1': "Angle"},                #14
-            {'P1': 'Circ.'},                #15
-            {'Q1': 'AR'},                   #16
-            {'R1': 'Round'},                #17
-            {'S1': 'Solidity'}              #18
+            {'A1': 'roi_id'},
+            {'B1': 'iaa_related_to'},
+            {'C1': 'pam_related_to'},
+            {'D1': 'Label'},
+            {'E1': 'Area'},
+            {'F1': 'Mean'},
+            {'G1': 'Min'},
+            {'H1': 'Max'},
+            {'I1': 'BX'},
+            {'J1': 'BY'},
+            {'K1': 'Width'},
+            {'L1': 'Height'},
+            {'M1': 'Major'},
+            {'N1': 'Minor'},
+            {'O1': "Angle"},
+            {'P1': 'Circ.'},
+            {'Q1': 'AR'},
+            {'R1': 'Round'},
+            {'S1': 'Solidity'}
         ]
 
 
@@ -208,7 +206,7 @@ def make_transcriber(args):
 
                 line_stats = ["DAMAGED", "DAMAGED_STILL_READ", "NOT_DAMAGED"]
 
-                # for greek, latin, or syriac add an optional kwarg for the language, otherwise default to hebrew
+                # Define Hebrew glyphs
                 chars_opts = [
                     "א",
                     "ב",
@@ -238,16 +236,16 @@ def make_transcriber(args):
                     "ש",
                     "ת",
                     "◦",
-                    "l",    # lacuna
-                    "s",    # scribal mark
-                    "m",    # corresponds to material commentary
-                    "v",    # vowel – Scribe used a sign to define a consonant with an associated vowel sound, yet the vowel is unclear. # e.g., See CD A 1:10 שלם (cf. Rabin 1956 and Qimron 1994)
-                    "v_a",  # vowel – /a/ class
-                    "v_u",  # vowel – /u/ class
-                    "v_i",  # vowel – /i/ class
-                    "d",    # diacritic – pertaining to morphological/phonological quality of a glyph (composed of more than simply a character, but rather it is a character + something to modify reading or writing practices)
-                    "x",    # (paragraphos markers; alpha-numerical markers [i.e., 4Q266 col. 1 aleph or 4Q256 frag. 4 gimel]; pauses (aka. setumah or petucha in Tiberian tradition)) syntactical or literary markings that are signs yet are not alphabetical in nature, whose function extends beyond matters of morphology or phonology to structure or arrange the text on the page (quasi mise-en-page features)
-                    "_"     # update 2.2 (space can be either ""  or "_")
+                    "l",
+                    "s",
+                    "m",
+                    "v",
+                    "v_a",
+                    "v_u",
+                    "v_i",
+                    "d",
+                    "x",
+                    "_"
                 ]
 
                 chars.data_validation(
