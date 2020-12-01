@@ -35,6 +35,8 @@ def convert_notebook(args):
     
     if output == 'tei' or output == 'json':
         df = parse_notebook(notebook)
+        # TODO prepare JSON out
+        # TODO prepare TEI out
     else:
         print("Output type must be either JSON or TEI")
         quit
