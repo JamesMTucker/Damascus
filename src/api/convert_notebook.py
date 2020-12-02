@@ -4,6 +4,7 @@ import os
 import sys
 import pandas as pd
 import argparse
+from views import json, tei
 
 # Copyright 2020 James M. Tucker, PhD
 
@@ -35,8 +36,11 @@ def convert_notebook(args):
     
     if output == 'tei' or output == 'json':
         df = parse_notebook(notebook)
-        # TODO prepare JSON out
-        # TODO prepare TEI out
+        if output == json:
+            # TODO prepare JSON out
+        else:
+            pass
+            # TODO prepare TEI out
     else:
         print("Output type must be either JSON or TEI")
         quit
