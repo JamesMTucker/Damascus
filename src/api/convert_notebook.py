@@ -19,7 +19,7 @@ def parse_notebook(notebook):
     chars = pd.read_excel(notebook, sheet_name='CHARs', index_col='roi_id')
     signs = pd.read_excel(notebook, sheet_name='SIGNs', index_col='roi_id')
     frags = pd.read_excel(notebook, sheet_name='Frags')
-
+    
     transcription = pd.merge(chars, signs, on='roi_id')
     
     return transcription
@@ -36,7 +36,8 @@ def convert_notebook(args):
     
     if output == 'tei' or output == 'json':
         df = parse_notebook(notebook)
-        if output == json:
+        if output == 'json':
+            print(df.shape)
             # TODO prepare JSON out
         else:
             pass
