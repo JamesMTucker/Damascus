@@ -1,4 +1,6 @@
 # -*- coding: utf8 -*-
+# University of Toronto
+# Copyright 2020 by James M. Tucker, PhD
 
 import os
 import sys
@@ -6,11 +8,7 @@ import xlsxwriter
 import csv
 import datetime
 import argparse
-
-# version 1.0
-# James M. Tucker, PhD
-# University of Toronto
-# Copyright 2020 by James M. Tucker
+from palaeography import hebrew_glyphs
 
 def make_transcriber(args):
     """
@@ -201,52 +199,12 @@ def make_transcriber(args):
                     "seam",
                     "damaged_surface",
                     "modern_mark", # i.e., library stamp or folio number
-                    "artefact", # i.e., a believed extraneous imaged object (e.g., dust, rice paper, shadow)
+                    "artefact", # i.e., a believed foreign object (e.g., dust, rice paper, shadow)
                 ]
 
                 line_stats = ["DAMAGED", "DAMAGED_STILL_READ", "NOT_DAMAGED"]
 
-                # Define Hebrew glyphs
-                chars_opts = [
-                    "א",
-                    "ב",
-                    "ג",
-                    "ד",
-                    "ה",
-                    "ו",
-                    "ז",
-                    "ח",
-                    "ט",
-                    "י",
-                    "כ",
-                    "ך",
-                    "ל",
-                    "מ",
-                    "ם",
-                    "נ",
-                    "ן",
-                    "ס",
-                    "ע",
-                    "פ",
-                    "ף",
-                    "צ",
-                    "ץ",
-                    "ק",
-                    "ר",
-                    "ש",
-                    "ת",
-                    "◦",
-                    "l",
-                    "s",
-                    "m",
-                    "v",
-                    "v_a",
-                    "v_u",
-                    "v_i",
-                    "d",
-                    "x",
-                    "_"
-                ]
+                char_opts = hebrew_glyphs()
 
                 chars.data_validation(
                     "I" + str(row_count), {"validate": "list", "source": palaeo_attr}
