@@ -194,6 +194,7 @@ def make_transcriber(args):
                     "lacuna",
                     "water_damage",
                     "crease",
+                    "tear",
                     "stitching hole",
                     "sewing",
                     "seam",

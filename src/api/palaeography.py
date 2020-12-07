@@ -4,7 +4,7 @@
 
 def hebrew_glyphs():
     """
-    Define unicode glyphs for Hebrew TODO Add dictionary for ASCII
+    Define unicode glyphs for Jewish Square Script
     """
     char_glyphs = {
         1: {'unicode': "א", 'hex': "U+05D0", 'xhtml': '&#1488;', 'acc': 'a'},
@@ -53,3 +53,8 @@ def diacritics():
         8: {'unicode': "x", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd'},
         9: {'unicode': "_", 'hex': "U+0020", 'xhtml': ' ', 'acc': ' '}
     }
+
+def cryptic_script():
+    """
+    """
+    pass
