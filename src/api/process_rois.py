@@ -188,10 +188,12 @@ def make_transcriber(args):
                     "sublinear",
                     "creased",
                     "erased",
+                    "erasure_dot",
                     "cursive",
                 ]
                 material_attr = [
                     "lacuna",
+                    "vacat",
                     "water_damage",
                     "crease",
                     "tear",
