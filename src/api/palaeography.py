@@ -6,7 +6,7 @@ def hebrew_glyphs():
     """
     Define unicode glyphs for Hebrew TODO Add dictionary for ASCII
     """
-    hebrew_unicode = {
+    char_glyphs = {
         1: {'unicode': "א", 'hex': "U+05D0", 'xhtml': '&#1488;', 'acc': 'a'},
         2: {'unicode': "ב", 'hex': "U+05D1", 'xhtml': '&#1489;', 'acc': 'b'},
         3: {'unicode': "ג", 'hex': "U+05D2", 'xhtml': '&#1490;', 'acc': 'g'},
@@ -34,15 +34,22 @@ def hebrew_glyphs():
         25: {'unicode': "ר", 'hex': "U+05E8", 'xhtml': '&#1512;', 'acc': 'd'},
         26: {'unicode': "ש", 'hex': "U+05E9", 'xhtml': '&#1513;', 'acc': 'C'},
         27: {'unicode': "ת", 'hex': "U+05EA", 'xhtml': '&#1514;', 'acc': 't'},
-        28: {'unicode': "◦", 'hex': "U+25E6", 'xhtml': '&#9702;', 'acc': ''},
-        29: {'unicode': "s", 'hex': "U+0073", 'xhtml': 's', 'acc': ''},
-        30: {'unicode': "m", 'hex': "U+006D", 'xhtml': 'm', 'acc': ''},
-        31: {'unicode': "v", 'hex': "U+0076", 'xhtml': 'v', 'acc': ''},
-        32: {'unicode': "v_a", 'hex': "", 'xhtml': '', 'acc': ''},
-        33: {'unicode': "v_u", 'hex': "", 'xhtml': '', 'acc': ''},
-        34: {'unicode': "v_i", 'hex': "", 'xhtml': '', 'acc': ''},
-        35: {'unicode': "d", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd'},
-        36: {'unicode': "x", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd'},
-        37: {'unicode': "_", 'hex': "U+0020", 'xhtml': ' ', 'acc': ' '}
     }
-    return hebrew_unicode
+    return char_glyphs
+
+def diacritics():
+    """
+    Define diacritic marks for transcription
+    """
+    diacritic_glyphs = {
+        1: {'unicode': "◦", 'hex': "U+25E6", 'xhtml': '&#9702;', 'acc': ''},
+        2: {'unicode': "s", 'hex': "U+0073", 'xhtml': 's', 'acc': ''},
+        3: {'unicode': "m", 'hex': "U+006D", 'xhtml': 'm', 'acc': ''},
+        4: {'unicode': "v", 'hex': "U+0076", 'xhtml': 'v', 'acc': ''},
+        5: {'unicode': "v_a", 'hex': "", 'xhtml': '', 'acc': ''},
+        6: {'unicode': "v_u", 'hex': "", 'xhtml': '', 'acc': ''},
+        6: {'unicode': "v_i", 'hex': "", 'xhtml': '', 'acc': ''},
+        7: {'unicode': "d", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd'},
+        8: {'unicode': "x", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd'},
+        9: {'unicode': "_", 'hex': "U+0020", 'xhtml': ' ', 'acc': ' '}
+    }
