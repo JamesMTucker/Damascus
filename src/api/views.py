@@ -19,7 +19,7 @@ def jsonOut(df):
     #prepare json output file
     data = df.to_json(orient="index")
     parsed = json.loads(data)
-    with open(os.path.join(output['json'], 'TS-10KS-1r.json'), 'w') as f:
+    with open(os.path.join(output['json'], 'TS-10K6-1r.json'), 'w') as f:
         json.dump(parsed, f, indent=4)
 
 
