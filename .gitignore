@@ -14,13 +14,12 @@ env/
 # Keys
 *.ini
 
-# Documents
-*4Q51-Example.zip
-*chromedriver_mac64.zip
-
 # Documents to Make Public After Project's Conclusion
 bibliography/james/
 
 # Personal Items
 /bibliography/pdf_lib/
 methodology/transcription/
+
+# Project Notes
+project/james/
