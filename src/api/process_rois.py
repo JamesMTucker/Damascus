@@ -55,7 +55,7 @@ def make_transcriber(args):
 
         header_labels_chars = [
             {'A1': 'id'},
-            {'B1': 'uni_id'},
+            {'B1': 'col_id'},
             {'C1': 'roi_id'},
             {'D1': 'related_to'},
             {'E1': 'editors_sigla_id'},
