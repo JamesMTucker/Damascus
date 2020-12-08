@@ -5,7 +5,7 @@
 
 from configparser import ConfigParser
 
-def config_json(filename='static.ini', section='TRANSCRIPTIONS'):
+def config_json(filename='static.ini', section='JSON'):
     """
     Get working directory for JSON datamodel
     :return: app directory for JSON

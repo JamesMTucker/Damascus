@@ -4,7 +4,7 @@ import os
 import sys
 import pandas as pd
 import argparse
-from views import json, tei
+from views import jsonOut, teiOut
 
 # Copyright 2020 James M. Tucker, PhD
 
@@ -37,7 +37,7 @@ def convert_notebook(args):
     if output == 'tei' or output == 'json':
         df = parse_notebook(notebook)
         if output == 'json':
-            print(df.shape)
+            jsonOut(df)
             # TODO prepare JSON out
         else:
             pass
