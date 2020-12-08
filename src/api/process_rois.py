@@ -8,7 +8,7 @@ import xlsxwriter
 import csv
 import datetime
 import argparse
-from palaeography import hebrew_glyphs
+from palaeography import validation
 
 def make_transcriber(args):
     """
@@ -197,7 +197,7 @@ def make_transcriber(args):
                     "water_damage",
                     "crease",
                     "tear",
-                    "stitching hole",
+                    "stitching_hole",
                     "sewing",
                     "seam",
                     "damaged_surface",
@@ -207,7 +207,7 @@ def make_transcriber(args):
 
                 line_stats = ["DAMAGED", "DAMAGED_STILL_READ", "NOT_DAMAGED"]
 
-                char_opts = hebrew_glyphs()
+                char_opts = validation()
 
                 chars.data_validation(
                     "I" + str(row_count), {"validate": "list", "source": palaeo_attr}

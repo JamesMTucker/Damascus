@@ -2,11 +2,11 @@
 
 # Copyright 2020 James M. Tucker, PhD
 
-def hebrew_glyphs():
+def hebGlyphs():
     """
     Define unicode glyphs for Jewish Square Script
     """
-    char_glyphs = {
+    charGlyphs = {
         1: {'unicode': "א", 'hex': "U+05D0", 'xhtml': '&#1488;', 'acc': 'a', 'tei': 'c'},
         2: {'unicode': "ב", 'hex': "U+05D1", 'xhtml': '&#1489;', 'acc': 'b', 'tei': 'c'},
         3: {'unicode': "ג", 'hex': "U+05D2", 'xhtml': '&#1490;', 'acc': 'g', 'tei': 'c'},
@@ -35,13 +35,13 @@ def hebrew_glyphs():
         26: {'unicode': "ש", 'hex': "U+05E9", 'xhtml': '&#1513;', 'acc': 'C', 'tei': 'c'},
         27: {'unicode': "ת", 'hex': "U+05EA", 'xhtml': '&#1514;', 'acc': 't', 'tei': 'c'},
     }
-    return char_glyphs
+    return charGlyphs
 
-def diacritics():
+def diacriticsGlyphs():
     """
     Define diacritic marks for transcription
     """
-    diacritic_glyphs = {
+    diacriticGlyphs = {
         1: {'unicode': "◦", 'hex': "U+25E6", 'xhtml': '&#9702;', 'acc': '', 'tei': ''},
         2: {'unicode': "s", 'hex': "U+0073", 'xhtml': 's', 'acc': '', 'tei': ''},
         3: {'unicode': "m", 'hex': "U+006D", 'xhtml': 'm', 'acc': '', 'tei': ''},
@@ -53,8 +53,25 @@ def diacritics():
         8: {'unicode': "x", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd', 'tei': ''},
         9: {'unicode': "_", 'hex': "U+0020", 'xhtml': ' ', 'acc': ' ', 'tei': ''}
     }
+    return diacriticGlyphs
 
 def cryptic_script():
     """
     """
     pass
+
+def validation():
+    """
+    Create validation list of signs for palaeographical notebook
+    """
+    validate = []
+    chars = hebGlyphs()
+    diacritics = diacriticsGlyphs()
+
+    for item in hebGlyphs.items():
+        validate.append(item[1]['unicode'])
+    
+    for item in diacritics.items():
+        validate.append(item[1]['unicode'])
+    
+    return validate
