@@ -68,7 +68,7 @@ def validation():
     chars = hebGlyphs()
     diacritics = diacriticsGlyphs()
 
-    for item in hebGlyphs.items():
+    for item in chars.items():
         validate.append(item[1]['unicode'])
     
     for item in diacritics.items():
