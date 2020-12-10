@@ -179,6 +179,7 @@ def make_transcriber(args):
                     "possible_letter",
                 ]
                 palaeo_attr = [
+                    "ligature",
                     "transformed",
                     "reinked",
                     "retraced",
