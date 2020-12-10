@@ -32,12 +32,15 @@ def convert_notebook(args):
     :type: TEI or JSON
     """
     notebook = args.palaeo_notebook
+    
+    path, nb = os.path.split(notebook)
+    name = os.path.splitext(nb)
     output = args.output.strip().lower()
     
     if output == 'tei' or output == 'json':
         df = parse_notebook(notebook)
         if output == 'json':
-            jsonOut(df)
+            jsonOut(df, name[0])
             # TODO prepare JSON out
         else:
             pass
