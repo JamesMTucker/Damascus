@@ -1,4 +1,4 @@
-# Cairo Genizah Codices
+# Cairo Genizah Codices of the Damascus Document
 
 ## CD A (<a href="https://cudl.lib.cam.ac.uk/view/MS-TS-00010-K-00006/1">T-S 10 K6</a>)
 

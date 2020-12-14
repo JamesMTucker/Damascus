@@ -1,0 +1,141 @@
+{
+    "viewingDirection": "right-to-left",
+    "metadata": [
+     {
+      "label": "Condition",
+      "value": "torn, faded"
+     },
+     {
+      "label": "Provenance",
+      "value": "Donated by Dr Solomon Schechter and his patron Dr Charles Taylor in 1898 as part of the Taylor-Schechter Genizah Collection"
+     },
+     {
+      "label": "Physical Location",
+      "value": "Cambridge University Library"
+     },
+     {
+      "label": "Extent",
+      "value": "1 leaf. Leaf height: 35 cm, width: 21 cm."
+     },
+     {
+      "label": "Funding",
+      "value": "The digitisation of the Taylor-Schechter Cairo Genizah Collection has been sponsored by the <a target='_blank' class='externalLink' href='http://www.jewishmanuscripts.org/'>Jewish Manuscript Preservation Society<\/a>, the <a target='_blank' class='externalLink' href='http://www.genizah.org/'>Friedberg Genizah Project Inc.<\/a>, and the <a target='_blank' class='externalLink' href='http://www.ahrc.ac.uk/Pages/default.aspx'>Arts and Humanities Research Council, UK<\/a>."
+     },
+     {
+      "label": "Abstract",
+      "value": "<p style='text-align: justify;'>MS B of the Damascus Document, with two columns labelled 18 and 19 that contain a variation of the Admonition found in folios 7-8 of T-S 10 K6 (MS A). First identified by Schechter (1910) as a fragment of a \u2018Zadokite work\u2019, a Second Temple era priestly composition exhorting the members of a breakaway sect to follow righteousness and adhere to various laws, this identification was later confirmed by the 1947 discovery of same text among the Dead Sea Scrolls at Qumran. The Genizah manuscripts of the Damascus Document exhibit differences both with each other and with the versions found at Qumran. <\/p>"
+     },
+     {
+      "label": "Date of Creation",
+      "value": "6th-19th century"
+     },
+     {
+      "label": "Title",
+      "value": "Halaḵa"
+     },
+     {
+      "label": "Author(s) of the Record",
+      "value": "CUL"
+     },
+     {
+      "label": "Material",
+      "value": "Paper"
+     },
+     {
+      "label": "Classmark",
+      "value": "T-S 16.311"
+     },
+     {
+      "label": "Note(s)",
+      "value": "Associated manuscripts: T-S 10 K6"
+     },
+     {
+      "label": "Donor(s)",
+      "value": "Schechter, S. (Solomon), 1847-1915; Taylor, Charles, 1840-1908"
+     },
+     {
+      "label": "Subject(s)",
+      "value": "Cairo Genizah"
+     },
+     {
+      "label": "Language(s)",
+      "value": "Hebrew (isolated Babylonian and Tiberian vocalisation)"
+     },
+     {
+      "label": "Layout",
+      "value": "34 lines (recto); 35 lines (verso)"
+     }
+    ],
+    "@type": "sc:Manifest",
+    "attribution": "Provided by Cambridge University Library. Zooming image © Cambridge University Library, All rights reserved.  This image may be used in accord with fair use and fair dealing provisions, including teaching and research. If you wish to reproduce it within publications or on the public web, please contact <a href='mailto:genizah@lib.cam.ac.uk'>genizah@lib.cam.ac.uk<\/a>.  This metadata is published free of restrictions, under the terms of the Creative Commons CC0 1.0 Universal Public Domain Dedication.",
+    "structures": [{
+     "canvases": [
+      "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/canvas/1",
+      "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/canvas/2"
+     ],
+     "@type": "sc:Range",
+     "@id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/range/DOCUMENT",
+     "label": "Halaḵa"
+    }],
+    "description": "<p style='text-align: justify;'>MS B of the Damascus Document, with two columns labelled 18 and 19 that contain a variation of the Admonition found in folios 7-8 of T-S 10 K6 (MS A). First identified by Schechter (1910) as a fragment of a \u2018Zadokite work\u2019, a Second Temple era priestly composition exhorting the members of a breakaway sect to follow righteousness and adhere to various laws, this identification was later confirmed by the 1947 discovery of same text among the Dead Sea Scrolls at Qumran. The Genizah manuscripts of the Damascus Document exhibit differences both with each other and with the versions found at Qumran. <\/p>",
+    "logo": "https://cudl.lib.cam.ac.uk/img/cu_logo.png",
+    "@id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311",
+    "label": "Halaḵa (T-S 16.311)",
+    "sequences": [{
+     "canvases": [
+      {
+       "images": [{
+        "resource": {
+         "@type": "dctypes:Image",
+         "service": {
+          "profile": "http://iiif.io/api/image/2/level1.json",
+          "@id": "https://images.lib.cam.ac.uk/iiif/MS-TS-00016-00311-000-00001.jp2",
+          "@context": "http://iiif.io/api/image/2/context.json"
+         },
+         "format": "image/jpg",
+         "width": 6348,
+         "@id": "https://images.lib.cam.ac.uk/iiif/MS-TS-00016-00311-000-00001.jp2",
+         "height": 9564
+        },
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "on": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/canvas/1"
+       }],
+       "@type": "sc:Canvas",
+       "width": 6348,
+       "@id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/canvas/1",
+       "label": "1r",
+       "height": 9564
+      },
+      {
+       "images": [{
+        "resource": {
+         "@type": "dctypes:Image",
+         "service": {
+          "profile": "http://iiif.io/api/image/2/level1.json",
+          "@id": "https://images.lib.cam.ac.uk/iiif/MS-TS-00016-00311-000-00002.jp2",
+          "@context": "http://iiif.io/api/image/2/context.json"
+         },
+         "format": "image/jpg",
+         "width": 6180,
+         "@id": "https://images.lib.cam.ac.uk/iiif/MS-TS-00016-00311-000-00002.jp2",
+         "height": 9564
+        },
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "on": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/canvas/2"
+       }],
+       "@type": "sc:Canvas",
+       "width": 6180,
+       "@id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/canvas/2",
+       "label": "1v",
+       "height": 9564
+      }
+     ],
+     "@type": "sc:Sequence",
+     "@id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00311/sequence",
+     "label": "Current Page Order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "seeAlso": "https://services.cudl.lib.cam.ac.uk/v1/metadata/tei/MS-TS-00016-00311/"
+   }
