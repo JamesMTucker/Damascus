@@ -48,10 +48,10 @@ def diacriticsGlyphs():
         4: {'unicode': "v", 'hex': "U+0076", 'xhtml': 'v', 'acc': '', 'tei': ''},
         5: {'unicode': "v_a", 'hex': "", 'xhtml': '', 'acc': '', 'tei': ''},
         6: {'unicode': "v_u", 'hex': "", 'xhtml': '', 'acc': '', 'tei': ''},
-        6: {'unicode': "v_i", 'hex': "", 'xhtml': '', 'acc': '', 'tei': ''},
-        7: {'unicode': "d", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd', 'tei': ''},
-        8: {'unicode': "x", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd', 'tei': ''},
-        9: {'unicode': "_", 'hex': "U+0020", 'xhtml': ' ', 'acc': ' ', 'tei': ''}
+        7: {'unicode': "v_i", 'hex': "", 'xhtml': '', 'acc': '', 'tei': ''},
+        8: {'unicode': "d", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd', 'tei': ''},
+        9: {'unicode': "x", 'hex': "", 'xhtml': '&#1491;', 'acc': 'd', 'tei': ''},
+        10: {'unicode': "_", 'hex': "U+0020", 'xhtml': ' ', 'acc': ' ', 'tei': ''}
     }
     return diacriticGlyphs
 
