@@ -3,7 +3,6 @@
 ## Data, Information, and Modelling
 
 ### Data
-
 ### Information
 
 ### Modelling

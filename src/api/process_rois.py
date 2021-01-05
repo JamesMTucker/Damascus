@@ -179,6 +179,7 @@ def make_transcriber(args):
                     "possible_letter",
                 ]
                 palaeo_attr = [
+                    "ligature",
                     "transformed",
                     "reinked",
                     "retraced",
@@ -240,16 +241,16 @@ def make_transcriber(args):
                     "X" + str(row_count), {"validate": "list", "source": line_stats}
                 )
                 chars.data_validation(
-                    "Q" + str(row_count), {"validate": "list", "source": chars_opts}
+                    "Q" + str(row_count), {"validate": "list", "source": char_opts}
                 )
                 chars.data_validation(
-                    "R" + str(row_count), {"validate": "list", "source": chars_opts}
+                    "R" + str(row_count), {"validate": "list", "source": char_opts}
                 )
                 chars.data_validation(
-                    "S" + str(row_count), {"validate": "list", "source": chars_opts}
+                    "S" + str(row_count), {"validate": "list", "source": char_opts}
                 )
                 chars.data_validation(
-                    "T" + str(row_count), {"validate": "list", "source": chars_opts}
+                    "T" + str(row_count), {"validate": "list", "source": char_opts}
                 )
                 row_count += 1
 

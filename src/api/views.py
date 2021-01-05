@@ -7,7 +7,7 @@ from config import config_json
 import json
 import os
 
-def jsonOut(df):
+def jsonOut(df, name):
     """
     Translate pandas dataframe into json
     """
@@ -19,7 +19,7 @@ def jsonOut(df):
     #prepare json output file
     data = df.to_json(orient="index")
     parsed = json.loads(data)
-    with open(os.path.join(output['json'], 'TS-10KS-1r.json'), 'w') as f:
+    with open(os.path.join(output['json'], name + '.json'), 'w') as f:
         json.dump(parsed, f, indent=4)
 
 

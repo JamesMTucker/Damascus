@@ -14,12 +14,11 @@ env/
 # Keys
 *.ini
 
-# Documents to Make Public After Project's Conclusion
-bibliography/james/
-
 # Personal Items
 /bibliography/pdf_lib/
 methodology/transcription/
+bibliography/james/
+src/api/
 
 # Project Notes
-project/james/
+/project/
