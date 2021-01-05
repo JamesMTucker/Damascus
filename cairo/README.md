@@ -4,10 +4,10 @@
 
 ### Cairo Damascus Manuscript A (ID = 2163)
 
-| Column | Side | Quire | ID |
-| :---: | :---: | :---: | :---: |
-| I | Recto | | [1555](/methodology/views/JSON/2163_1555.json) |
-| II | Verso | | [1556](/methodology/views/JSON/2163_1556.json) |
+| Column | Side | Quire | ID | JSON | TEI | PDF |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| I | Recto | | 1555 | [JSON](/methodology/views/JSON/2163_1555.json) | |
+| II | Verso | | 1556 | [JSON](/methodology/views/JSON/2163_1556.json) | |
 | III | Recto | | 1557 |
 
 ## CD B (<a href="https://cudl.lib.cam.ac.uk/view/MS-TS-00016-00311/1">T-S 16.311</a>)
