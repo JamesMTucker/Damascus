@@ -2,7 +2,7 @@
 
 ## 4Q266 (<a href="https://www.deadseascrolls.org.il/explore-the-archive/search#q='4Q266'">4QD<sup>a</sup></a>)
 
-For more details, see the contents in folder <a href="4Q266/">4Q266</a> above.
+For more details, see the contents in folder <a href="qumran/4Q266">4Q266</a> above.
 
 ## 4Q267 (<a href="https://www.deadseascrolls.org.il/explore-the-archive/search#q='4Q267'">4QD<sup>b</sup></a>)
 
