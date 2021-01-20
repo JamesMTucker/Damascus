@@ -1,22 +1,16 @@
 # Venv
 env/
 src/api/
-
-#application or OS
 .vscode
 .DS_Store
+methodology/transcription/
+bibliography/pdf/
 
-#Image related data
+#Images
 *.psb
 *.psd
 *.tif
 *.jpg
-
-# Keys
-*.ini
-
-methodology/transcription/
-bibliography/pdf/
 
 # Project Notes
 project/
