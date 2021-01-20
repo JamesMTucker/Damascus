@@ -12,7 +12,7 @@ The above creates a Python environment. To activate the environment, run the fol
 
 To install the necessary dependencies, run the following:
 
-* `python3 install -r requirements.txt`
+* `pip install -r requirements.txt`
 
 ## Launch the Virtual Research Environment
 

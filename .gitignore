@@ -1,5 +1,6 @@
 # Venv
 env/
+src/api/
 
 #application or OS
 .vscode
@@ -14,11 +15,8 @@ env/
 # Keys
 *.ini
 
-# Personal Items
-/bibliography/pdf_lib/
 methodology/transcription/
-bibliography/james/
-/src/
+bibliography/pdf/
 
 # Project Notes
-/project/
+project/
