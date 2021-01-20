@@ -1,0 +1,10 @@
+id,sqe_master_id,roi_id,image_id_damascus,Area,Mean,Min,Max,BX,BY,Width,Height,Circ.,AR,Round,Solidity,reading_Order,reading_Order_Alt,related_To,uni_He_0,uni_He_1,uni_He_2,uni_He_3,uni_He_4,uni_He_5,line_ID,line_ID_Alt,attr_0,attr_1,is_Joined,commentary
+,,1,02_Frg_1c_ב_ROI.tif:0007-2498-4131:7,2622,75.395,51,115,4108,2470,46,57,0.776,1.239,0.807,1,,,,◦,,,,,,,,,,,
+,,2,02_Frg_1c_ב_ROI.tif:0007-2495-4021:7,3861,78.467,24,143,4002,2446,39,99,0.637,2.538,0.394,1,,,,◦,,,,,,,,,,,
+,,3,02_Frg_1c_ב_ROI.tif:0007-2526-3942:7,2520,93.343,53,150,3922,2495,40,63,0.746,1.575,0.635,1,,,,◦,,,,,,,,,,,
+,,4,02_Frg_1c_ב_ROI.tif:0007-2488-3808:7,31486,87.272,30,163,3717,2402,182,173,0.785,1.052,0.951,1,,,,◦,,,,,,,,,,,
+,,5,02_Frg_1c_ב_ROI.tif:0007-2564-3585:7,30960,78.221,44,151,3499,2474,172,180,0.785,1.047,0.956,1,,,,א,,,,,,,,,,,
+,,6,02_Frg_1c_ב_ROI.tif:0007-2549-3388:7,31073,70.651,4,132,3292,2469,193,161,0.779,1.199,0.834,1,,,,ש,,,,,,,,,,,
+,,7,02_Frg_1c_ב_ROI.tif:0007-2563-3243:7,9102,62.993,24,114,3202,2508,82,111,0.768,1.354,0.739,1,,,,מ,,,,,,,,,,,"On the IAA images, the mem is very hard to interpret. Once the older PAM iamges are consulted (PAM 41664_10; 42392_8; and 43278_50), it is easier to read the mem. PAM 43278_50 is also important for the ink of sign_10 seems more consistent with a heh, than with a tav. In this case, syntax is changed and it is not in construct. Baumgarten reads, אשמתם. I am not sure where he sees the ink for mem of the plural suffix. RECHECK "
+,,8,02_Frg_1c_ב_ROI.tif:0007-2566-3155:7,6944,62.441,6,118,3124,2510,62,112,0.721,1.806,0.554,1,,,,מ,,,,,,,,,,,
+,,9,02_Frg_1c_ב_ROI.tif:0007-2568-3087:7,6336,66.56,31,116,3054,2520,66,96,0.758,1.455,0.688,1,,,,ה,ת,,,,,,,,,,See note on sign_7
