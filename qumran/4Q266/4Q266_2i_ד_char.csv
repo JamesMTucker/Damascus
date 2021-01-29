@@ -1,0 +1,13 @@
+id,sqe_master_id,roi_id,image_id_damascus,Area,Mean,Min,Max,BX,BY,Width,Height,Circ.,AR,Round,Solidity,reading_Order,reading_Order_Alt,uni_He_0,uni_He_1,uni_He_2,uni_He_3,uni_He_4,uni_He_5,line_ID,line_ID_Alt,attr_0,attr_1,is_Joined,commentary
+1,,,02_Frg_2i_ד_ROI.tif:0004-2871-4261:4,0.021,79.571,32,157,8.856,5.885,0.094,0.226,0.652,2.4,0.417,1,1,,ח,,,,,,1,,damaged,,,
+2,,,02_Frg_2i_ד_ROI.tif:0004-2820-4162:4,0.101,93.681,30,165,8.532,5.737,0.326,0.311,0.785,1.047,0.955,1,2,,ר,,,,,,1,,damaged,,,
+3,,,02_Frg_2i_ד_ROI.tif:0004-2800-4060:4,0.015,82.367,25,141,8.436,5.768,0.094,0.163,0.729,1.733,0.577,1,3,,ו,,,,,,1,,damaged,,,
+4,,,02_Frg_2i_ד_ROI.tif:0004-2839-3933:4,0.099,106.865,58,174,8.137,5.624,0.161,0.616,0.516,3.831,0.261,1,4,,ן,,,,,,1,,damaged,,,
+5,,,02_Frg_2i_ד_ROI.tif:0004-3220-4257:4,0.011,96.787,40,164,8.833,6.683,0.123,0.088,0.763,1.405,0.712,1,5,,ב,,,,,,2,,damaged,,,
+6,,,02_Frg_2i_ד_ROI.tif:0004-3148-4195:4,0.049,104.051,69,170,8.699,6.395,0.134,0.364,0.618,2.719,0.368,1,6,,,,,,,,2,,,,,
+7,,,02_Frg_2i_ד_ROI.tif:0004-3095-4100:4,0.065,90.365,38,160,8.434,6.345,0.265,0.244,0.784,1.085,0.921,1,7,,ע,,,,,,2,,,,,
+8,,,02_Frg_2i_ד_ROI.tif:0004-2966-4014:4,0.14,85.708,38,168,8.29,5.837,0.194,0.719,0.526,3.699,0.27,1,8,,ל,,,,,,2,,,,,"The ink appears rather dark, and there also seems to be a lighter coloured descender of the lamed, just left of the darker. In this case, it was perhaps retraced, thus explaining its thicker structure. See the image lamed-yod.tif retrace in the file. "
+9,,,02_Frg_2i_ד_ROI.tif:0004-3067-3921:4,0.046,79.25,52,151,8.112,6.265,0.161,0.286,0.724,1.779,0.562,1,9,,י,,,,,,2,,,,,"The yod aslo seems to have been retraced, although the overlap between the first and second ink layers is not as easily descerned as the lamed.  Perhaps this was done when the column was repaired?"
+10,,,02_Frg_2i_ד_ROI.tif:0004-3026-3787:4,0.088,80.72,31,168,7.78,6.157,0.265,0.332,0.776,1.252,0.799,1,10,,ה,,,,,,2,,,,,
+11,,,02_Frg_2i_ד_ROI.tif:0004-3375-4110:4,0.107,86.423,33,169,8.509,6.704,0.155,0.694,0.468,4.486,0.223,1,11,,ל,,,,,,3,,,,,
+12,,,02_Frg_2i_ד_ROI.tif:0004-3440-3986:4,0.033,70.55,24,165,8.217,7.114,0.224,0.148,0.753,1.507,0.664,1,12,,צ,,,,,,3,,,,,
