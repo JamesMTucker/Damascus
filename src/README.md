@@ -8,7 +8,7 @@ The working environment relies on a Python Virtual Environment. To install the e
 
 The above creates a Python environment. To activate the environment, run the following:
 
-* `source env/bin/activate`
+* `source .env/bin/activate`
 
 To install the necessary dependencies, run the following:
 
