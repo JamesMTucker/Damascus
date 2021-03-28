@@ -1,10 +1,9 @@
-# Venv
-env/
-src/api/
+.env/
 .vscode
 .DS_Store
 methodology/transcription/
 bibliography/pdf/
+*.ini
 
 #Images
 *.psb
